@@ -1,0 +1,15 @@
+uuid: fdbd28d5-e4f6-47d9-b24c-4693c0febb12
+langcode: en
+status: true
+dependencies: {  }
+id: contributor
+label: Contributor
+weight: 3
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'create drop content'
+  - 'create terms in tags'
+  - 'edit any drop content'
+  - 'edit own drop content'
+  - 'use text format full_html'

@@ -181,7 +181,18 @@ display:
       title: 'My Posts'
       header: {  }
       footer: {  }
-      empty: {  }
+      empty:
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: true
+          tokenize: false
+          content: "<div class=\"no-result\">\r\n<p>You have not added any <em>Drop</em> till now. If you want to contribute anything new which you have learnt <a href=\"/node/add/drop\">get started and add a new drop</a> to share your knowledge with everyone.</p>\r\n</div>"
+          plugin_id: text_custom
       relationships: {  }
       arguments:
         uid:

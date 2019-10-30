@@ -1,9 +1,9 @@
-no_load_when_authenticated: true
-no_load_when_session: true
+no_load_when_authenticated: false
+no_load_when_session: false
 no_load_content_types: {  }
 ignore_admin_paths: true
-ignore_hashes: true
-ignore_ajax_links: true
+ignore_hashes: false
+ignore_ajax_links: false
 ignore_file_ext: true
 load_polyfill: true
 selector: ''

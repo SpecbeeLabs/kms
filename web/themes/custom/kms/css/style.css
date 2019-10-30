@@ -1,6 +1,11 @@
+*:focus {
+  outline-width: 0.0625rem;
+  outline-style: dotted;
+  outline-color: #987c32;
+  outline-offset: 0.125rem;
+}
 @media screen and (min-width: 60rem) {
-  .path-node .node .field--type-text-with-summary pre,
-  .path-node .block-page-title-block {
+  .path-node .node .field--type-text-with-summary pre {
     min-width: 120%;
     margin: 1.5rem -3rem;
   }
@@ -95,30 +100,48 @@
   width: 15rem;
   margin-right: 2rem;
 }
+.views-exposed-form .form-actions {
+  float: right;
+  clear: none;
+  margin-top: 2.05rem;
+}
+.views-exposed-form .form-actions .button {
+  width: 3rem;
+  height: 3rem;
+  font-size: 0;
+}
+.views-exposed-form .form-actions .button:first-child {
+  background: url("../images/search.svg") no-repeat center center/1.25rem;
+}
+.views-exposed-form .form-actions .button:nth-child(2) {
+  background: url("../images/clear.svg") no-repeat center center/1.25rem;
+}
+.views-exposed-form .description {
+  display: none;
+}
 input[type="text"],
+input[type="email"],
+input[type="password"],
 select {
   width: 100%;
   height: 3rem;
   padding: 0.75rem 1rem;
-  border: 2px solid #484848;
+  border: 1px solid #484848;
   border-radius: 0;
   background: none;
   font-size: 0.875rem;
 
   -webkit-appearance: none;
 }
-#edit-author--description {
-  display: none;
-}
-.views-exposed-form .form-actions {
-  float: right;
-  clear: none;
-  margin-top: 2.5rem;
+input[type="text"]:hover,
+select:hover {
+  border-color: #222330;
+  box-shadow: inset 0 0 0 1px #222330;
 }
 .form-submit {
   margin-bottom: 0;
   color: #484848;
-  border: 2px solid #484848;
+  border: 1px solid #484848;
   background: #fff;
 }
 .pager {
@@ -134,4 +157,18 @@ select {
 }
 .path-node .main-content {
   max-width: 48rem;
+}
+.user-login-form {
+  max-width: 32rem;
+}
+.user-login-form label,
+.node-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 900;
+  line-height: 1.75;
+}
+#block-kms-powered {
+  text-align: right;
 }
