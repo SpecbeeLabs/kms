@@ -1,0 +1,25 @@
+uuid: 124f0d6d-438b-4a75-a3b5-56e2d4f4b726
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8ff42b81-9302-421c-af80-0030905b3e54'
+  module:
+    - block_content
+  theme:
+    - kms
+id: footerbranding
+theme: kms
+region: footer_first
+weight: -5
+provider: null
+plugin: 'block_content:8ff42b81-9302-421c-af80-0030905b3e54'
+settings:
+  id: 'block_content:8ff42b81-9302-421c-af80-0030905b3e54'
+  label: 'Footer branding'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

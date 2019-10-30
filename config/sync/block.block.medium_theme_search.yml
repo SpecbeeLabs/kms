@@ -1,0 +1,22 @@
+uuid: 0e26f725-ce05-4124-9431-b4c72d52ccbe
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - medium_theme
+_core:
+  default_config_hash: kStBkAp_KW2NCsAFXIiL7A89ruE_OUUJCNQuJOndZZ0
+id: medium_theme_search
+theme: medium_theme
+region: header_right
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

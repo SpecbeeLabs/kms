@@ -1,0 +1,27 @@
+uuid: caf91230-63ec-4e9f-9394-04a158a19b67
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - medium_theme
+_core:
+  default_config_hash: HYkmsZBb0nHEHJbDVuufY2J3DxWHpWvKmrlBysBEvrw
+id: medium_theme_main_menu
+theme: medium_theme
+region: navigation
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

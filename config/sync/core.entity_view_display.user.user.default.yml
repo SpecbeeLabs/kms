@@ -1,0 +1,90 @@
+uuid: 988e8a1d-196c-427d-a6f7-0e5818d98bbc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+    - views.view.my_posts
+  module:
+    - image
+    - layout_builder
+    - user
+    - views
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          column_widths: 25-75
+        components:
+          cde21f3d-13b6-4ab6-a035-f9670fc38a64:
+            uuid: cde21f3d-13b6-4ab6-a035-f9670fc38a64
+            region: first
+            configuration:
+              id: 'field_block:user:user:user_picture'
+              label: Picture
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: image
+                settings:
+                  image_style: large
+                  image_link: ''
+                third_party_settings: {  }
+              context_mapping:
+                entity: '@user.current_user_context:current_user'
+            additional: {  }
+            weight: 0
+          fc005c9b-70d8-4e80-a921-1188108ad1f4:
+            uuid: fc005c9b-70d8-4e80-a921-1188108ad1f4
+            region: first
+            configuration:
+              id: 'extra_field_block:user:user:member_for'
+              label: 'Member for'
+              provider: layout_builder
+              label_display: '0'
+              context_mapping:
+                entity: '@user.current_user_context:current_user'
+            additional: {  }
+            weight: 1
+          0c69fef6-6075-47c5-97c0-390f41bd67b6:
+            uuid: 0c69fef6-6075-47c5-97c0-390f41bd67b6
+            region: second
+            configuration:
+              id: 'views_block:my_posts-block_1'
+              label: ''
+              provider: views
+              label_display: '0'
+              views_label: ''
+              items_per_page: none
+              context_mapping: {  }
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  member_for:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  user_picture:
+    type: image
+    weight: 0
+    region: content
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+hidden: {  }

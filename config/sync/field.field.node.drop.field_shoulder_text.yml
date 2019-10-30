@@ -1,0 +1,19 @@
+uuid: 3682dbb5-ef61-48a7-a776-dec9fb2431fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_shoulder_text
+    - node.type.drop
+id: node.drop.field_shoulder_text
+field_name: field_shoulder_text
+entity_type: node
+bundle: drop
+label: 'Shoulder text'
+description: 'Enter a short one line description about your post.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: ad5b3b0c-b666-41df-917f-2aa0864d2e3d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - medium_theme
+_core:
+  default_config_hash: JUPQRekWskY38bngImoPZP992F3Yw1BrnvCUpdbz7SE
+id: medium_theme_local_tasks
+theme: medium_theme
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

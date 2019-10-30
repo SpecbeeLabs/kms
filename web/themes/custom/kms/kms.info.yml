@@ -1,0 +1,21 @@
+name: KMS
+type: theme
+description: 'Specbee KMS Theme'
+package: Custom
+core: 8.x
+libraries:
+  - kms/global-styling
+regions:
+  branding: Branding
+  header_left: Header left
+  header_right: Header right
+  navigation: Navigation
+  featured: Featured
+  content: Content
+  featured_bottom: Featured bottom
+  footer_first: Footer first
+  footer_second: Footer second
+  footer_third: Footer third
+  footer_bottom: Footer bottom
+
+base theme: medium_theme

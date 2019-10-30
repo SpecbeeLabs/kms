@@ -1,0 +1,22 @@
+uuid: 523ff6e0-bc73-4974-a2f3-facf514e89f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kms
+_core:
+  default_config_hash: FCiTsGcuKLkPiwj4ZAiZNzZbHbTdYvWL1SEl_-0FYjM
+id: kms_powered
+theme: kms
+region: footer_third
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

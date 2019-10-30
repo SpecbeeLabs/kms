@@ -1,0 +1,17 @@
+uuid: c3390ac9-9d28-4a51-b26e-69e007084504
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Drop
+type: drop
+description: 'Use <em>Drop</em> to create a post on the site. The type of the post may vary from writing a full tutorial or a small snippet.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

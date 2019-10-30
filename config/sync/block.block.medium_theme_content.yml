@@ -1,0 +1,22 @@
+uuid: d3aa21ea-b8f5-4664-ade6-4bb8e3c71474
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - medium_theme
+_core:
+  default_config_hash: _Fv4PTYuNrH6YbqHwnb3FClioAJ1P88WAnuQD0r-NSo
+id: medium_theme_content
+theme: medium_theme
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 3e4b69e7-b381-420e-b08b-e574c629fef5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kms
+_core:
+  default_config_hash: ghMQP383gPG9kJmpYQXqEEOBtMLEN7Ydew3rFp9R6io
+id: kms_sitebranding
+theme: kms
+region: branding
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

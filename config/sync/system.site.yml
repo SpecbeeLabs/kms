@@ -1,0 +1,14 @@
+uuid: b7aaccf6-3ab8-4c7a-b988-544e6aae1aa6
+name: 'Specbee Engg Blogs'
+mail: info@example.com
+slogan: 'Engineering Blogs'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

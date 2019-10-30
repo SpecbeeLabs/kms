@@ -1,0 +1,22 @@
+uuid: 69595acc-bb9f-4ace-81db-548d9b078cc5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - kms
+_core:
+  default_config_hash: yeIPazPWHq_1r0OEfUTJ5wGB7HYQDGdKWQc_md3UovI
+id: kms_messages
+theme: kms
+region: content
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

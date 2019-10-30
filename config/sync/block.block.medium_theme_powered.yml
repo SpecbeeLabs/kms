@@ -1,0 +1,22 @@
+uuid: a1c7822f-a376-4581-8fbb-9777e5728e90
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - medium_theme
+_core:
+  default_config_hash: FCiTsGcuKLkPiwj4ZAiZNzZbHbTdYvWL1SEl_-0FYjM
+id: medium_theme_powered
+theme: medium_theme
+region: footer_bottom
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

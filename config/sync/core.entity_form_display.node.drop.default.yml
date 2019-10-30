@@ -1,0 +1,57 @@
+uuid: 992ea537-43fe-4eb4-b40a-e4f27c175917
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.drop.body
+    - field.field.node.drop.field_shoulder_text
+    - field.field.node.drop.field_tags
+    - node.type.drop
+  module:
+    - text
+id: node.drop.default
+targetEntityType: node
+bundle: drop
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 2
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_shoulder_text:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_tags:
+    weight: 3
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

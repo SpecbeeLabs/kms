@@ -1,0 +1,20 @@
+uuid: ac400a93-d2cc-42b1-8cdb-0a7d8c32eb8e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - medium_theme
+_core:
+  default_config_hash: Vt0PlfRFhIVv4QXb0vlyDWO1jn1X307X_BgeJSGzXCA
+id: medium_theme_page_title
+theme: medium_theme
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

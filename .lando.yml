@@ -1,0 +1,11 @@
+name: kms
+recipe: drupal8
+config:
+  webroot: web
+services:
+  database:
+    type: mariadb:10.2
+    creds:
+      user: database
+      password: database
+      database: database

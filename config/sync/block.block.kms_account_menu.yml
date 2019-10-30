@@ -1,0 +1,27 @@
+uuid: 638ca52c-7141-4de6-8afa-42fc567c81b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - kms
+_core:
+  default_config_hash: KyUfycni0keffc5h0c-u6nfVHD5YMrqvvZg80UCC-SQ
+id: kms_account_menu
+theme: kms
+region: header_left
+weight: -4
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 0e92a5fe-acaf-4903-8b08-ba58f87f1026
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - medium_theme
+_core:
+  default_config_hash: yeIPazPWHq_1r0OEfUTJ5wGB7HYQDGdKWQc_md3UovI
+id: medium_theme_messages
+theme: medium_theme
+region: content
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

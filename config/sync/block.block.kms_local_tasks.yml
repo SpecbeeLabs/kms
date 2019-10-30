@@ -1,0 +1,22 @@
+uuid: 5750ee86-84be-450f-bc65-ec233eae475c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - kms
+_core:
+  default_config_hash: JUPQRekWskY38bngImoPZP992F3Yw1BrnvCUpdbz7SE
+id: kms_local_tasks
+theme: kms
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,27 @@
+uuid: 4c1c0ec7-0b4e-413a-aca7-4d24360ef691
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - medium_theme
+_core:
+  default_config_hash: KyUfycni0keffc5h0c-u6nfVHD5YMrqvvZg80UCC-SQ
+id: medium_theme_account_menu
+theme: medium_theme
+region: header_left
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

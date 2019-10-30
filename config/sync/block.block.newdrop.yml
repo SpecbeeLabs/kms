@@ -1,0 +1,33 @@
+uuid: 44eba689-268b-4cf4-86fa-f889c4944894
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a408fddd-f461-40b3-9508-ab0eedbb8e7a'
+  module:
+    - block_content
+    - user
+  theme:
+    - kms
+id: newdrop
+theme: kms
+region: header_right
+weight: 0
+provider: null
+plugin: 'block_content:a408fddd-f461-40b3-9508-ab0eedbb8e7a'
+settings:
+  id: 'block_content:a408fddd-f461-40b3-9508-ab0eedbb8e7a'
+  label: 'New Drop'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
