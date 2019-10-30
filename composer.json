@@ -37,6 +37,7 @@
         "drupal/better_exposed_filters": "^3.0@alpha",
         "drupal/claro": "^1.0@beta",
         "drupal/codesnippet": "^1.6",
+        "drupal/config_installer": "^1.8",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
         "drupal/email_registration": "^1.0@RC",
