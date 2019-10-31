@@ -1,0 +1,22 @@
+uuid: fe160519-ecb2-4d6a-aadc-252910dbf3f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: drop
+label: Drop
+type: 'canonical_entities:node'
+pattern: '/drop/[node:nid]'
+selection_criteria:
+  23e5c151-a696-4fb0-a927-487c6a686cd2:
+    id: node_type
+    bundles:
+      drop: drop
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 23e5c151-a696-4fb0-a927-487c6a686cd2
+selection_logic: and
+weight: -5
+relationships: {  }

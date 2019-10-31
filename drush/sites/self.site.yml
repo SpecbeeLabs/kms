@@ -12,3 +12,15 @@
 #  user: www-admin
 #  root: /path/to/drupal
 #  uri: http://stage.example.com
+dev:
+ host: ec2-52-66-118-196.ap-south-1.compute.amazonaws.com
+ user: ubuntu
+ root: /var/www/html/kms/web
+ uri: https://kms.specbee.in/
+ paths:
+   - files: sites/default/files
+ command:
+   sql:
+     sync:
+       options:
+         no-dump: true

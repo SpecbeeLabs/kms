@@ -42,6 +42,7 @@
         "drupal/core": "^8.7.0",
         "drupal/email_registration": "^1.0@RC",
         "drupal/medium_theme": "^1.2",
+        "drupal/pathauto": "^1.5",
         "drupal/quicklink": "^1.2",
         "drupal/smart_trim": "^1.1",
         "drupal/views_infinite_scroll": "^1.6",
