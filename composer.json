@@ -35,7 +35,6 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/admin_toolbar": "^2.0",
         "drupal/better_exposed_filters": "^3.0@alpha",
-        "drupal/claro": "^1.0@beta",
         "drupal/codesnippet": "^1.6",
         "drupal/config_installer": "^1.8",
         "drupal/console": "^1.0.2",
@@ -87,11 +86,6 @@
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
             "drupal/core": "-p2"
-        },
-        "patches": {
-            "drupal/core": {
-                "Image style support for inline images": "https://www.drupal.org/files/issues/2019-05-09/2061377-338-8.7.x.patch"
-            }
         },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
