@@ -57,10 +57,8 @@ module:
 theme:
   stable: 0
   classy: 0
-  bartik: 0
   seven: 0
   medium_theme: 0
-  claro: 0
   kms: 0
 profile: standard
 _core:
