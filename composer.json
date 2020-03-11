@@ -87,6 +87,11 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
+        "patches": {
+            "drupal/core": {
+                "Allow image style to be selected in Text Editor's image dialog (necessary for structured content)": "https://www.drupal.org/files/issues/2020-01-28/2061377-362.patch"
+            }
+        },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": ["type:drupal-library"],
